@@ -264,7 +264,7 @@ body {
 }
 
 .logo a {
-	height: 32px;
+	height: 100px;
 	display: block;
 	overflow: hidden;
 	font-size: 0;
@@ -272,9 +272,9 @@ body {
 
 .logo img {
 	vertical-align: top;
-	max-height: 32px;
+	max-height: 100px;
 	display: block;
-	margin-bottom: 32px;
+	margin-bottom: 100px;
 }
 
 .brand {
@@ -288,7 +288,7 @@ body {
 	border-left: 2px solid #eaeaea;
 	margin-left: 10px;
 	overflow: hidden;
-	height: 30px;
+	height: 102px;
 }
 
 /* site-navbar ======================================================================================================== */
@@ -387,18 +387,18 @@ body {
 
 .site-search {
 	background-color: #fff;
-	background-color: rgba(255,255,255,0.95);
+	background-color: rgba(0,120,70,0.8);
 	position: absolute;
 	top: 0;
 	left: 0;
 	right: 0;
-	height: 100px;
+	height: 170px;
 	z-index: 8;
 	opacity: 0
 }
 
 .search-on .site-search {
-	top: 72px;
+	top: 150px;
 	opacity: 1
 }
 

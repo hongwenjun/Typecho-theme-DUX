@@ -19,6 +19,8 @@
     <meta http-equiv="Cache-Control" content="no-siteapp">
     <meta http-equiv="Cache-Control" content="no-transform">
 
+	<link rel="icon" href="/logo/favicon.png">
+
     <link rel="stylesheet" href="//cdn.jsdelivr.net/bootstrap/3.2.0/css/bootstrap.min.css" type="text/css" media="all" />
     <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css" type="text/css" media="all" />
     <link rel="stylesheet" href="<?php $this->options->themeUrl('css/main.css '); ?>" type="text/css" media="all" />
@@ -45,13 +47,13 @@
 <body class="<?php if ($this->is('index')) : ?>home<?php elseif ($this->is('post')) : ?>single<?php elseif ($this->is('page')) : ?>page<?php elseif ($this->is('archive')) : ?>archive<?php else: ?><?php endif; ?>">
     <header class="header">
         <div class="container">
-            <h1 class="logo">
+            <div class="logo">
 <?php if (!empty($this->options->logoUrl)): ?>
                 <a href="<?php $this->options ->siteUrl(); ?>"><img src="<?php $this->options->logoUrl(); ?>" alt="<?php $this->options->title();?>" /></a>
 <?php else: ?>
                 <a href="<?php $this->options ->siteUrl(); ?>"><img src="<?php $this->options->themeUrl('img/logo.png'); ?>" alt="<?php $this->options->title();?>" /><?php $this->options->title();?></a>
 <?php endif; ?>
-            </h1>
+            </div>
             <div class="brand"><?php if($this->options->logotext && !empty($this->options->logotext) ): ?><?php $this->options->logotext(); ?><?php endif; ?></div>
             <ul class="site-nav site-navbar">
                 <li><a href="<?php $this->options ->siteUrl(); ?>"><i class="fa fa-home"></i>首页</a></li>
