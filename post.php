@@ -16,7 +16,7 @@
                     <?php parseContent($this); ?>
                 </article>
 
-                <div class="post-copyright">本原创文章未经允许不得转载 | 当前页面：<a href="<?php $this->options ->siteUrl(); ?>"><?php $this->options->title();?></a> &raquo; <a href="<?php $this->permalink(); ?>"><?php $this->title() ?></a></div>
+                <div class="post-copyright">本原创文章自由转载,转载请注明本博来源及网址 | 当前页面：<a href="<?php $this->options ->siteUrl(); ?>"><?php $this->options->title();?></a> &raquo; <a href="<?php $this->permalink(); ?>"><?php $this->title() ?></a></div>
                 <div class="article-tags">标签：<?php $this->tags(' ', true, '<a>没有标签</a>'); ?></div>
 <?php if($this->options->authordesc && !empty($this->options->authordesc) ): ?>
                 <div class="article-author">
