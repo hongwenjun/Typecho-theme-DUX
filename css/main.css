@@ -1,6 +1,6 @@
 body {
 	font-family: 'Microsoft YaHei', '微软雅黑', Arial, sans-serif;
-	color: #555;
+	color: #000000;
 }
 
 ul,ol,dl,dt,dd {
@@ -132,7 +132,7 @@ img {
 }
 
 body {
-	background-color: #f6f6f6;
+	background-color: #404040;
 	position: relative;
 	/*margin-top: 79px;*/
 }
@@ -155,9 +155,9 @@ body {
 	left: 0;
 	right: 0;
 	z-index: 9;
-	background-color: #fff;
-	padding: 20px 0 20px;
-	margin-bottom: 15px;
+	background-color: #202020;
+	padding: 2px 0 2px;
+	margin-bottom: 4px;
 	border-bottom: 1px solid #EAEAEA;
 	/*box-shadow: 0 1px 4px rgba(0,0,0,.05);*/
 	border-color: rgba(0,0,0,.08);
@@ -312,7 +312,7 @@ body {
 .site-navbar a {
 	display: block;
 	padding: 0 15px;
-	color: #666;
+	color: #eeeeee;
 }
 
 .site-navbar li:hover > a,
@@ -339,10 +339,10 @@ body {
 	position: absolute;
 	top: 100%;
 	left: 0;
-	background-color: #fff;
+	background-color: #101010;
 	font-size: 12px;
 	padding: 6px 0;
-	border: 1px solid #ddd;
+	border: 1px solid #45b6f7;
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 	line-height: 32px;
 	width: 132px;
@@ -392,13 +392,13 @@ body {
 	top: 0;
 	left: 0;
 	right: 0;
-	height: 170px;
+	height: 120px;
 	z-index: 8;
 	opacity: 0
 }
 
 .search-on .site-search {
-	top: 130px;
+	top: 110px;
 	opacity: 1
 }
 
@@ -781,8 +781,8 @@ body {
 	margin-right: 1em;
 }
 .excerpt .note {
-	font-size: 13px;
-	color: #999;
+	font-size: 14px;
+	color: #000000;
 	word-wrap: break-word;
 	line-height: 20px;
 }
@@ -2713,7 +2713,7 @@ body {
 	line-height: 12px;
 	text-align: center;
 	color: #999;
-	background-color: #fff;
+	background-color: #101010;
 	border-top: 1px solid #eaeaea;
 	/*box-shadow: 1px 0 4px rgba(0,0,0,0.04)*/
 }
